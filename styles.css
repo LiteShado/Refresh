@@ -1,7 +1,16 @@
 h1 {
     color: red;
-    background-color: black;
 }
 h2 {
     color: blue;
+}
+
+div {
+    width: 100%;
+    max-width: 400px;
+
+}
+
+button:hover {
+    background-color: aquamarine;
 }
