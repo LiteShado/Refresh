@@ -14,3 +14,28 @@ div {
 button:hover {
     background-color: aquamarine;
 }
+
+p {
+    animation: pointdown 1000ms infinite alternate-reverse;
+
+    animation: colorup 2000ms infinite alternate-reverse;
+}
+
+@keyframes pointdown {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(35px);
+    }
+}
+
+@keyframes colorup {
+    0% {
+        color: red;
+    }
+
+    100% {
+        color: blue;
+    }
+}
