@@ -55,10 +55,27 @@ let array = [1, 2, 3, 4, 5, 6];
 
 //converting us Dollars to aud dollars using 1.5 as conversion rate
 
+/*
 let newArray = array.map(element => null );
 
 let usDollars = [10, 20, 30, 40];
+let audDollars = [];
 
 let auDollars = usDollars.map(element => element * 1.5);
-
 console.log(auDollars);
+*/
+
+/*
+for (let i = 0; i < usDollars.length; i++) {
+    audDollars.push(usDollars[i] * 1.5);
+}
+console.log(audDollars);
+*/
+let users = [];
+
+function test (userParam) {
+    users.push(userParam);
+    console.log(users);
+}
+
+test({email:"smith@gmail.com", password: "test123", name:"john smith", discord:"johnsmith", subscription: "VIP", lessonCompleted: [1, 2]});
