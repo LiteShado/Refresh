@@ -21,6 +21,7 @@ for (let i = 1; i <= 15; ++i) {
 let people = [18, 20, 16, 15, 21];
 let adults = [];
 
+//filter method is mutating
 /*
 let search = people.filter(element => {
     console.log(element);
@@ -32,7 +33,7 @@ let search = people.filter(element => {
     }
 });
 console.log(adults);
-*/
+
 
 
 for (let i  = 0; i < people.length; i++) {
@@ -44,3 +45,20 @@ for (let i  = 0; i < people.length; i++) {
     }
     console.log(adults);
 }
+
+*/
+
+//map method is non-mutating
+let array = [1, 2, 3, 4, 5, 6];
+
+//one line return and only one parameter in a callback function allows for no need to use curley braces or extra parenthesis
+
+//converting us Dollars to aud dollars using 1.5 as conversion rate
+
+let newArray = array.map(element => null );
+
+let usDollars = [10, 20, 30, 40];
+
+let auDollars = usDollars.map(element => element * 1.5);
+
+console.log(auDollars);
