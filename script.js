@@ -79,3 +79,7 @@ function test (userParam) {
 }
 
 test({email:"smith@gmail.com", password: "test123", name:"john smith", discord:"johnsmith", subscription: "VIP", lessonCompleted: [1, 2]});
+
+
+
+
